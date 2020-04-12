@@ -38,17 +38,17 @@ cv2.imshow("crop6", crop6)
 cv2.waitKey(0)
 cv2.imwrite("c6.png", crop6)
 
-crop7 = image[311:361, 71:146]
+crop7 = image[308:361, 71:146]
 cv2.imshow("crop7", crop7)
 cv2.waitKey(0)
 cv2.imwrite("c7.png", crop7)
 
-crop8 = image[311:361, 162:236]
+crop8 = image[308:361, 162:236]
 cv2.imshow("crop9", crop8)
 cv2.waitKey(0)
 cv2.imwrite("c8.png", crop8)
 
-crop9 = image[311:361, 252:325]
+crop9 = image[308:361, 252:325]
 cv2.imshow("crop9", crop9)
 cv2.waitKey(0)
 cv2.imwrite("c9.png", crop9)
