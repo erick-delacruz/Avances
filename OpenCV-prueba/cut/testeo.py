@@ -14,9 +14,9 @@ def unsharp_mask(image, kernel_size=(5, 5), sigma=1.0, amount=1.0, threshold=0):
     return sharpened
 
 def example():
-    image = cv.imread('my-sharpenedC5_3.jpg')
+    image = cv.imread('c7.png')
     sharpened_image = unsharp_mask(image)
-    cv.imwrite('my-sharpenedC5_4.jpg', sharpened_image)
+    cv.imwrite('c7_sharp.jpg', sharpened_image)
 
 example()
 

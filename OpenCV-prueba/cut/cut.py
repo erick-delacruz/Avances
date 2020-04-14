@@ -66,10 +66,10 @@ imagen_threshold = cv2.imread("c1.png",0)
 print("Threshold selected: ", ret)
 cv2.imwrite("./c1_2.png",thresh)
 
-imagen_threshold = cv2.imread("c4.png",0)
+imagen_threshold = cv2.imread("c4_123.jpg",0)
 (ret, thresh) = cv2.threshold(imagen_threshold, 10, 255, cv2.THRESH_OTSU)
 print("Threshold selected: ", ret)
-cv2.imwrite("./c4_2.png",thresh)
+cv2.imwrite("./c4_123_123.png",thresh)
 
 imagen_threshold = cv2.imread("my-sharpenedC5_3.jpg",0)
 (ret, thresh) = cv2.threshold(imagen_threshold, 10, 255, cv2.THRESH_OTSU)
@@ -80,6 +80,11 @@ imagen_threshold = cv2.imread("c6.png",0)
 (ret, thresh) = cv2.threshold(imagen_threshold, 10, 255, cv2.THRESH_OTSU)
 print("Threshold selected: ", ret)
 cv2.imwrite("./c6_2.png",thresh)
+
+imagen_threshold = cv2.imread("c7_sharp.jpg",0)
+(ret, thresh) = cv2.threshold(imagen_threshold, 10, 255, cv2.THRESH_OTSU)
+print("Threshold selected: ", ret)
+cv2.imwrite("./c7_2.png",thresh) 
 
 def cortes(imagen, horizontal, vertical): #Recordar que horizontal es eje Y, vert = X
     pass
